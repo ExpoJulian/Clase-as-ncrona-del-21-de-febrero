@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "NotasApp",
+    "slug": "notasapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0F0F14"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#7C6AF7"
+      },
+      "package": "com.tuusuario.notasapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.tuusuario.notasapp",
+      "supportsTablet": false
+    },
+    "plugins": [
+      [
+        "expo-sqlite",
+        {
+          "enableFTS": false,
+          "useSQLCipher": false
+        }
+      ]
+    ]
+  }
+}
